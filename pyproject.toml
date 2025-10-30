@@ -1,0 +1,16 @@
+[build-system]
+requires = ['setuptools', 'setuptools-scm', 'wheel']
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gdp"
+version = "0.1.0"
+description = "Simple cross-country GDP analysis"
+authors = [
+  { name = "William Morris", email = "wm341@cam.ac.uk.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["gdp"]

@@ -1,0 +1,16 @@
+name: gdp
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - pandas-datareader
+  - ipywidgets
+  - pandas
+  - python=3.12
+  - pip
+  - notebook
+  - seaborn
+  - matplotlib
+  - ipykernel
+  - numpy
+  - jupyter
